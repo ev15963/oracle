@@ -1,0 +1,7 @@
+CREATE USER scott IDENTIFIED BY tiger;
+
+ALTER USER scott DEFAULT TABLESPACE USERS;
+
+ALTER USER scott TEMPORARY TABLESPACE TEMP;
+
+grant connect, dba, resource to scott; 
